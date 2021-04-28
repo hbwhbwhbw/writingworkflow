@@ -89,8 +89,9 @@ If you stop here, congratulations! You just set yourself up with a nice library 
 
     - Use tweaked version of bluebook-law-review.csl saved in /dropbox/markdown. ^[~/Desktop/repos/csl/bluebook-law-review.csl.]
 
-    ``` sh pandoc filename.md --bibliography zotero.bib
-    --csl ~/Desktop/repos/csl/bluebook-law-review.csl
+    ```
+    sh pandoc filename.md --bibliography ~/Dropbox/repos/zotero.bib
+    --csl ~/Dropbox/repos/csl/bluebook-law-review.csl
     --reference-doc template.docx
     -o filename.docx; open filename.docx
     ```
