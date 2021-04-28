@@ -22,7 +22,7 @@ Zotero isn't perfect; the browser support for Westlaw* is nonexistent, and for S
 
 This means I mostly download law review articles from HeinOnline; Zotero's browser support is very good for Hein, and I can be sure that the pagination is correct. I use JStor and other databases for scholarship in other fields.
 
-I don't keep everything in Zotero. I download reports, letters, and SSRN preprints to my downloads folder, and use Hazel to automatically move those items into designated folders on Dropbox.
+I don't keep everything in Zotero. I download reports, letters, and SSRN preprints to my downloads folder, and use Hazel to automatically move those items into designated folders within Dropbox.
 
 *I am curious whether Zotero plays better with Casetext, but I have not yet tried it. If Casetext had decent Zotero-readable metadata associated with legal decisions, it would be a gamechanger for me.
 
