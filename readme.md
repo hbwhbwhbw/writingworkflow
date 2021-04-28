@@ -4,6 +4,8 @@ This is a guide to the tools I use to make research and writing easier. My initi
 
 *not entirely
 
+**Disclaimer**: this works for me, but it might not work for you! You might have different needs, interests, habits, etc.
+
 ## Hardware
 
 I use a 2015 Macbook Pro and a 2020 iPad Air. I do the vast majority of my writing on the Macbook and the vast majority of my reading of articles and other PDF documents on the iPad. I read books mostly in hard copy but occasionally on my Kobo ereader.
@@ -25,6 +27,10 @@ This means I mostly download law review articles from HeinOnline; Zotero's brows
 I don't keep everything in Zotero. I download reports, letters, and SSRN preprints to my downloads folder, and use Hazel to automatically move those items into designated folders within Dropbox.
 
 *I am curious whether Zotero plays better with Casetext, but I have not yet tried it. If Casetext had decent Zotero-readable metadata associated with legal decisions, it would be a gamechanger for me.
+
+## Hazel
+
+I use [Hazel](https://www.noodlesoft.com/) to watch my Downloads folder and move documents into appropriate subfolders. For instance, Hazel watches for downloads that start with "SSRN" and automatically moves them to a folder in Dropbox I called "SSRN Drafts." Hazel also watches for documents with specific filenaming shortcuts in them - I use @r for reports and @l for letters, for example - and moves them to specific folders in Dropbox, subfoldered by the year, month and day on which I downloaded them.
 
 ## Notetaking
 
@@ -90,7 +96,8 @@ If you stop here, congratulations! You just set yourself up with a nice library 
     - Use tweaked version of bluebook-law-review.csl saved in /dropbox/markdown. ^[~/Desktop/repos/csl/bluebook-law-review.csl.]
 
     ```
-    sh pandoc filename.md --bibliography ~/Dropbox/repos/zotero.bib
+    sh pandoc filename.md
+    --bibliography ~/Dropbox/repos/zotero.bib
     --csl ~/Dropbox/repos/csl/bluebook-law-review.csl
     --reference-doc template.docx
     -o filename.docx; open filename.docx
