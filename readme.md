@@ -50,8 +50,11 @@ As Dave Smith documents, you can use Zotero to copy "quick cites" and paste into
 
 1. Install Zotero for desktop, as well as relevant browser plugins (the support for Heinonline is particularly good).
 2. Install the Zotfile plugin. There are two options for storing your Zotero files - as attachments locally stored within Zotero, or as links to documents stored elsewhere. I chose the latter, and use a Dropbox folder to store all my Zotero PDFs.
-   - I organize my Dropbox folder by author, and within that by publication year. (I do this by ticking the box in Zotfile Preferences that says "Use subfolder defined by" and fill in ""/%a/%y")
-   - If you already have a giant folder of PDFs, you can drag them into Zotero and it will extract information from them (not perfect but pretty good for articles downloaded from library databases).
+   - I organize my Dropbox folder by author, and within that by publication year. (I do this by ticking the box in Zotfile Preferences that says "Use subfolder defined by" and fill in "/%a/%y")
+   - If you already have a giant folder of PDFs, you can drag them into Zotero and it will extract information from them (not perfectly, but works pretty well for articles downloaded from library databases).
+
+  If you have a giant folder of SSRN downloads, I cannot help you with that. In my opinion, it's best just to start a new system moving forward rather than agonizing over everything that already exists. Onward!
+  
    - In Zotfile preferences>>Renaming rules, untick "Use Zotero to Rename." I use what I think is the default format: {%a_}{%y_}{%t}, which yields a renamed file: Jackson_Foucault Welles_2015_Hijacking #MYNYPD.pdf.
 
 ## Set up your bibliography file.
