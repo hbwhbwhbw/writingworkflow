@@ -18,7 +18,7 @@ Confession: I am a PDF hoarder. I download lots and lots of PDFs; mostly law rev
 
 Enter Zotero, which allows me to amass an enormous library of PDFs, store them in a Dropbox repository accessible across platforms and devices, and automatically rename and reorganize them. For information on how I configure Zotero to do this, see below.
 
-Zotero isn't perfect; the browser support for Westlaw* is nonexistent, and for SSRN it's just bad. But for scholarship I access through a library database such as HeinOnline, JStor, etc., I can simply click the Zotero browser extension and it automatically downloads the article with all the associated metadata, renames the file, and sticks it in a subfolder organized by author and date. I also use Zotero to keep track of links to news articles relevant to my research.
+Zotero isn't perfect; the browser support for Westlaw* is nonexistent, and for SSRN it's just bad. It works okay, but not great, for legal cases in Google Scholar. But for scholarship I access through a library database such as HeinOnline, JStor, etc., I can simply click the Zotero browser extension and it automatically downloads the article with all the associated metadata, renames the file, and sticks it in a subfolder organized by author and date. I also use Zotero to keep track of links to news articles relevant to my research.
 
 This means I mostly download law review articles from HeinOnline; Zotero's browser support is very good for Hein, and I can be sure that the pagination is correct. I use JStor and other databases for scholarship in other fields.
 
