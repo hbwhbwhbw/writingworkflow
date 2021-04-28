@@ -54,7 +54,7 @@ As Dave Smith documents, you can use Zotero to copy "quick cites" and paste into
    - If you already have a giant folder of PDFs, you can drag them into Zotero and it will extract information from them (not perfectly, but works pretty well for articles downloaded from library databases).
 
   If you have a giant folder of SSRN downloads, I cannot help you with that. In my opinion, it's best just to start a new system moving forward rather than agonizing over everything that already exists. Onward!
-  
+
    - In Zotfile preferences>>Renaming rules, untick "Use Zotero to Rename." I use what I think is the default format: {%a_}{%y_}{%t}, which yields a renamed file: Jackson_Foucault Welles_2015_Hijacking #MYNYPD.pdf.
 
 ## Set up your bibliography file.
@@ -74,7 +74,7 @@ If you stop here, congratulations! You just set yourself up with a nice library 
 
 8. Download [zotpick-pandoc](https://github.com/davepwsmith/zotpick-applescript/blob/master/zotpick-pandoc%20for%20Scrivener.applescript) and compile it as an application.
 
-6. Under Scrivener Preferences>>General,>>Citations, choose [zotpick-pandoc](https://github.com/davepwsmith/zotpick-applescript/blob/master/zotpick-pandoc%20for%20Scrivener.applescript) as bibliography manager.
+6. Under Scrivener Preferences>>General>>Citations, choose [zotpick-pandoc](https://github.com/davepwsmith/zotpick-applescript/blob/master/zotpick-pandoc%20for%20Scrivener.applescript) as bibliography manager.
    1. troubleshooting zotpick: got error that it didn't have ability to send keystrokes, had to tweak in Privacy>Accessibility settings
    2. Tweaked script to generate square brackets
          ```set theReference to do shell script "/usr/bin/curl 'http://127.0.0.1:23119/better-bibtex/cayw?format=pandoc&brackets=true' 2>/dev/null; exit 0"```
