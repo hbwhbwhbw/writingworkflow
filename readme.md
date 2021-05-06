@@ -72,7 +72,7 @@ As Dave Smith documents, you can use Zotero to copy "quick cites" and paste into
 
 ## Set up your stylesheets.
 
-7. I use a slightly tweaked version of bluebook-law-review.csl, it works better for me than juris-m's indigobook for law review style.
+7. I use a slightly tweaked version of [bluebook-law-review.csl](https://github.com/hbwhbwhbw/writingworkflow/blob/master/bluebook-law-review-hbw.csl), it works better for me than juris-m's indigobook for law review style.
 
 # STOP HERE IF YOU DON'T WANT TO MESS WITH MARKDOWN, PANDOC, OR AUTOMATING YOUR CITATIONS.
 
